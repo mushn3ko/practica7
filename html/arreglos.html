@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <head>
+        <title>While y For</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../css/estiloEjerc.css">
+        <script type="text/javascript" src="../js/arreglo.js"></script>
+        <script type="text/javascript" src="../js/estilo.js"></script>
+    </head>
+    <body>
+    	<header>
+    		<h1>Arreglos</h1>
+    	</header>
+    	<nav id="menu">
+			<ul>
+				<li class="arriba"><a href="../index.html" onclick="">Inicio</a>
+				</li>
+				<li class="arriba"><a href="./ejercicios.html" onclick="">Ejercicios</a>
+					<ul>
+						<li><a href="./ejercicios.html#cajas">1. Cajas - Article</a></li>
+						<li><a href="./ejercicios.html#voto">2. Ciudad - Voto</a></li>
+						<li><a href="./ejercicios.html#suma">3. Suma - Positivos</a></li>
+					</ul>
+				</li>
+				<li class="arriba"><a href="ifelsecase.html">If-else y Switch</a>
+					<ul>
+						<li><a href="#if1">1. Mayor a menor</a></li>
+						<li><a href="#if2">2. Impuestos</a></li>
+						<li><a href="#if3">3. Sueldo</a></li>
+					</ul>
+				</li>
+			 	<li class="arriba"><a href="while.html">While y For</a>
+					<ul>
+						<li><a href="#w1">1. Suma - Impares</a></li>
+						<li><a href="#w2">2. Asteriscos</a></li>
+						<li><a href="#w3">3. Tablas del 1 al 10</a></li>
+					</ul>
+				</li>
+			 	<li class="arriba"><a href="arreglos.html">Arreglos</a></li>
+			 	<li class="arriba" id="imagen"><a href="#" onClick="mostrar()"><figure><img src="../media/iconos/list.png"></figure></a>
+                    <article id="entrar" style="visibility: hidden">
+                        <p>Correo Electrónico:</p>
+                        <input type="email" name="" placeholder="ejemplo@ejemplo.com">
+                        <p>Contraseña:</p>
+                        <input type="password" name="" placeholder="*******">
+                        <br>
+                        <br>
+                        <input type="button" name="" id="boton" value="INICIAR SESIÓN" onClick="crear()">
+                    </article>
+                </li>
+			</ul>
+    	</nav>
+    	<section>
+    		<article id="w1">
+                <h1>Arreglos</h1>
+                <p>arreglo1 = [1, 4, 3, 2]</p>
+                <p>arreglo2 = [a, d, c, b]</p>
+                <p>Elige la opción que deseas hacer con los arreglos:</p>
+                <input type="button" name="" id="boton" value="MOSTRAR ARREGLOS" onClick="mostrarar()">
+                <input type="button" name="" id="boton" value="REINICIAR ARREGLOS" onClick="reiniciar()">
+                <input type="button" name="" id="boton" value="CONTAR ELEMENTOS" onClick="contar()">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="QUITAR ULTIMO ELMENTO (POP)" onClick="pop()">
+                <input type="button" name="" id="boton" value="QUITAR PRIMER ELMENTO (SHIFT)" onClick="shift()">
+                <br>
+                <br>
+                <input type="text" name="" placeholder="Para Arreglo 1" id="a1">
+                <input type="text" name="" placeholder="Para arreglo 2" id="a2">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="AGREGAR UN ELEMENTO AL FINAL (PUSH)" onClick="agregarf()">
+                <br>
+                <br>
+                <input type="text" name="" placeholder="Para Arreglo 1" id="a3">
+                <input type="text" name="" placeholder="Para arreglo 2" id="a4">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="AGREGAR UN ELEMENTO AL INICIO (UNSHIFT)" onClick="agregari()">
+                <br>
+                <br>
+                <input type="text" name="" placeholder="Para Arreglo 1" id="a5">
+                <input type="text" name="" placeholder="Para arreglo 2" id="a6">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="AGREGAR UN ELEMENTO EN MEDIO (SPLICE)" onClick="splice()">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="ELIMINAR El SEGUNDO ELMENTO (DELETE)" onClick="deletes()">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="REVERTIR ARREGLO (REVERSE)" onClick="reverse()">
+                <input type="button" name="" id="boton" value="ORDENAR ARREGLO (SORT)" onClick="sort()">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="CONECTAR ARREGLOS (CONCAT)" onClick="concat()">
+                <br>
+                <br>
+                <input type="button" name="" id="boton" value="CONVERTIR ARREGLO A STRING (JOIN)" onClick="concat()">
+    		</article>
+    	</section>
+    	<section id="cajas">
+    		<h1>RESULTADOS</h1>
+    		<article>
+    			<p id="resultados"></p>
+    		</article>
+    	</section>
+    	<footer>
+    		<p>Aplicaciones Web - Barco Ibarra Rosa María</p>
+    		<p>UTLeón - EVN304</p>
+            <p>Junio 29, 2020</p>
+    	</footer>
+    </body>
+</html>

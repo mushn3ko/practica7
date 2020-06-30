@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <head>
+        <title>While y For</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../css/estiloEjerc.css">
+        <script type="text/javascript" src="../js/while.js"></script>
+        <script type="text/javascript" src="../js/estilo.js"></script>
+    </head>
+    <body>
+    	<header>
+    		<h1>While y For</h1>
+    	</header>
+    	<nav id="menu">
+			<ul>
+				<li class="arriba"><a href="../index.html" onclick="">Inicio</a>
+				</li>
+				<li class="arriba"><a href="./ejercicios.html" onclick="">Ejercicios</a>
+					<ul>
+						<li><a href="./ejercicios.html#cajas">1. Cajas - Article</a></li>
+						<li><a href="./ejercicios.html#voto">2. Ciudad - Voto</a></li>
+						<li><a href="./ejercicios.html#suma">3. Suma - Positivos</a></li>
+					</ul>
+				</li>
+				<li class="arriba"><a href="ifelsecase.html">If-else y Switch</a>
+					<ul>
+						<li><a href="#if1">1. Mayor a menor</a></li>
+						<li><a href="#if2">2. Impuestos</a></li>
+						<li><a href="#if3">3. Sueldo</a></li>
+					</ul>
+				</li>
+			 	<li class="arriba"><a href="while.html">While y For</a>
+					<ul>
+						<li><a href="#w1">1. Suma - Impares</a></li>
+						<li><a href="#w2">2. Asteriscos</a></li>
+						<li><a href="#w3">3. Tablas del 1 al 10</a></li>
+					</ul>
+				</li>
+			 	<li class="arriba"><a href="./arreglos.html">Arreglos</a></li>
+			 	<li class="arriba" id="imagen"><a href="#" onClick="mostrar()"><figure><img src="../media/iconos/list.png"></figure></a>
+                    <article id="entrar" style="visibility: hidden">
+                        <p>Correo Electrónico:</p>
+                        <input type="email" name="" placeholder="ejemplo@ejemplo.com">
+                        <p>Contraseña:</p>
+                        <input type="password" name="" placeholder="*******">
+                        <br>
+                        <br>
+                        <input type="button" name="" id="boton" value="INICIAR SESIÓN" onClick="crear()">
+                    </article>
+                </li>
+			</ul>
+    	</nav>
+    	<section>
+    		<article id="w1">
+                <h1>Suma de impares del 1 al 100</h1>
+                <input type="button" name="" id="boton" value="MOSTRAR" onClick="suma100()">
+                <figure><img src="../media/imagenes/estrellas.gif"></figure>
+    		</article>
+    		<article id="w2">
+    			<h1>Asteriscos</h1>
+                <p>Escribe un número:</p>
+                <input type="text" name="" id="n1" placeholder="Escribe un número" class="txt">
+                <p>Este número se mostrará en asteriscos.</p>
+                <input type="button" name="" id="boton" value="MOSTRAR" onClick="asteriscos()">
+                <figure><img src="../media/imagenes/estrellas.gif"></figure>
+    		</article>
+    		<article id="w3">
+    			<h1>Tablas 1 al 10</h1>
+                <input type="button" name="" id="boton" value="MOSTRAR" onClick="tablas()">
+                <figure><img src="../media/imagenes/estrellas.gif"></figure>
+    		</article>
+    	</section>
+    	<section id="cajas">
+    		<h1>RESULTADOS</h1>
+    		<article>
+    			<p id="resultados"></p>
+    		</article>
+    	</section>
+    	<footer>
+    		<p>Aplicaciones Web - Barco Ibarra Rosa María</p>
+    		<p>UTLeón - EVN304</p>
+            <p>Junio 29, 2020</p>
+    	</footer>
+    </body>
+</html>
